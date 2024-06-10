@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+    height: 300vh;
+    background-color: black;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+nav ul {
+    display: flex;
+    margin:  50px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: aqua;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    margin:  50px;
+
+}
+
+span {
+    color: cyan;
+}
+
+#main {
+    margin-top: 13%;
+    border-bottom: 2px solid white;
+}
+
+.container1 {
+    margin-right: 20%;
+    margin: 50px;
+    height: 40%;
+    
+}
+.first {
+    color: white;
+}
+
+.second {
+    color: cyan;
+    padding-top: 3px;
+}
+
+p {
+    color: white;
+    margin: 20px 0;
+}
+
+
+.btn1 {
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 40%;
+    border: none;
+    background: cyan;
+    border-radius: 4px;
+    
+}
+
+.btn2 {
+    padding: 10px;
+    margin-right: 30px;
+    margin-bottom: 40%;
+    border: none;
+    background: cyan;
+    border-radius: 4px;
+}
+
+.btn1:hover {
+    color: aqua;
+    background-color: transparent;
+    border-radius: 5px solid white;
+    outline: 2px solid cyan;
+    
+}
+
+.btn2:hover {
+    color: aqua;
+    background-color: transparent;
+    
+    outline: 2px solid cyan;
+    
+}
+.images {
+    margin-left: 40%;
+    outline: 5px solid cyan;
+    border-radius: 50%;
+    height: 50%;
+    margin: 50px;
+    
+    
+    
+}
+.text {
+    display: flex;
+    
+}
+
+.about-head h2{
+    text-align: center;
+    color: bisque;
+    font-size: 12px;
+    
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 8% 8%;
+    gap: 9rem;
+    background: black;
+}
+.about-img img{
+    margin-right: 20%;
+    outline: 5px solid cyan;
+    border-radius: 50%;
+    height: 50%;
+    margin: 50px;
+    box-shadow: 0 0 25px cyan,
+                0 0 25px cyan;
+}
+
+
+
+.about-content h3{
+    font-size: 40px;
+    color: bisque;
+}
+
+.about-content p{
+    color: bisque;
+    font-size: 10px;
+    margin: 2em 0 3em;
+}
